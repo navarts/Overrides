@@ -28,3 +28,4 @@ regions[footer] = Footer
 
 ; apply special CSS to style things the way we want...
 stylesheets[all][] = _res/css/overrides.css
+stylesheets[all][] = css/colors.css
