@@ -1,0 +1,30 @@
+; This isn't really a full theme, just overrides where necessary for custom functionality.
+name = Overrides
+description = Custom overrides to the default Bartik theme for Drupal 7
+core = 7.x
+; inherit from bartik!
+base theme = bartik
+; regions
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer] = Footer
+
+; apply special CSS to style things the way we want...
+stylesheets[all][] = _res/css/overrides.css

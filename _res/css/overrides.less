@@ -1,0 +1,106 @@
+.border-radius {
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+}
+.text-shadow {
+  text-shadow:1px 1px 2px rgba(0, 0, 0, 0.25);
+  -moz-text-shadow:1px 1px 2px rgba(0, 0, 0, 0.25);
+  -webkit-text-shadow:1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+// site name 
+#name-and-slogan {
+  .text-shadow;
+}
+#site-name {
+  a {
+    &:hover { text-decoration:none; }
+  }
+}
+// user profile items
+div.profile {
+  div.field {
+    display:inline;
+    font-size:24px;
+    margin-right:0.35em;
+    * { display:inline; }
+  }
+  div.field-name-group-audience {
+    display:block;
+    padding-top:16px;
+    div.field-item {
+      display:block;
+      font-size:14px;
+    }
+  }
+}
+// in breadcrumbs
+span.divider { padding:0 0.5em; }
+// Q&A section
+div.node-answer {
+  background-color:#f6f6f6;
+  border:1px solid #ccc;
+  .border-radius;
+  margin-bottom:10px;
+  padding:10px;
+}
+span.new {
+  color:#c00;
+  float:right;
+  font-style:italic;
+}
+// homepage styles
+#homepage {
+  div.pane-content {
+    h2 { font-size:16px; }
+    p  { font-size:12px; }
+    div.meta { font-size:11px; }
+  }
+  div.panel-col-first {
+    div.panel-pane { border-right:10px solid #fff; }
+  }
+  div.panel-col-last {
+    div.panel-pane { border-left:10px solid #fff; }
+  }
+}
+// group pages
+div.field-name-group-group {
+  overflow:auto;
+  a {
+    background-color:#eee;
+    border:1px solid #ccc;
+    .border-radius;
+    display:block;
+    float:right;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    line-height:18px;
+    padding:0 1em;
+    &:hover {
+      background-color:#ddd;
+      text-decoration:none;
+    }
+  }
+}
+// wysiwyg editor hacks 
+span.cke_skin_kama {
+  padding:0 !important;
+  border-style:none !important;
+}
+div.wysiwyg-toggle-wrapper {
+  border:1px solid #ccc;
+  border-bottom:none;
+  font-size:11px;
+  margin-top:5px;
+  padding:5px 15px 0;
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+// why does this show up at all?
+body.not-logged-in {
+  div.contextual-links-wrapper { display:none; }
+}

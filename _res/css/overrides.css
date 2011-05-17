@@ -1,0 +1,106 @@
+.border-radius {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  -moz-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  -webkit-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+#name-and-slogan {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  -moz-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  -webkit-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+#site-name a:hover {
+  text-decoration: none;
+}
+div.profile div.field {
+  display: inline;
+  font-size: 24px;
+  margin-right: 0.35em;
+}
+div.profile div.field * {
+  display: inline;
+}
+div.profile div.field-name-group-audience {
+  display: block;
+  padding-top: 16px;
+}
+div.profile div.field-name-group-audience div.field-item {
+  display: block;
+  font-size: 14px;
+}
+span.divider {
+  padding: 0 0.5em;
+}
+div.node-answer {
+  background-color: #f6f6f6;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+span.new {
+  color: #c00;
+  float: right;
+  font-style: italic;
+}
+#homepage div.pane-content h2 {
+  font-size: 16px;
+}
+#homepage div.pane-content p {
+  font-size: 12px;
+}
+#homepage div.pane-content div.meta {
+  font-size: 11px;
+}
+#homepage div.panel-col-first div.panel-pane {
+  border-right: 10px solid #fff;
+}
+#homepage div.panel-col-last div.panel-pane {
+  border-left: 10px solid #fff;
+}
+div.field-name-group-group {
+  overflow: auto;
+}
+div.field-name-group-group a {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  display: block;
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0 1em;
+}
+div.field-name-group-group a:hover {
+  background-color: #ddd;
+  text-decoration: none;
+}
+span.cke_skin_kama {
+  padding: 0 !important;
+  border-style: none !important;
+}
+div.wysiwyg-toggle-wrapper {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  font-size: 11px;
+  margin-top: 5px;
+  padding: 5px 15px 0;
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+body.not-logged-in div.contextual-links-wrapper {
+  display: none;
+}
