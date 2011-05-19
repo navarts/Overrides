@@ -104,3 +104,12 @@ div.wysiwyg-toggle-wrapper {
 body.not-logged-in div.contextual-links-wrapper {
   display: none;
 }
+div.pane-tag-listing-panel-pane-1 div.pane-content {
+  overflow: auto;
+}
+div.pane-tag-listing-panel-pane-1 div.pane-content div {
+  float: left;
+}
+div.pane-tag-listing-panel-pane-1 div.pane-content div.views-field {
+  margin-right: 1em;
+}

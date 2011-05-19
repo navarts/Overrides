@@ -104,3 +104,14 @@ div.wysiwyg-toggle-wrapper {
 body.not-logged-in {
   div.contextual-links-wrapper { display:none; }
 }
+
+// 2011-05-18 : modify layout of tags on homepage.
+div.pane-tag-listing-panel-pane-1 div.pane-content {
+  overflow:auto;
+  div {
+    float:left;
+    &.views-field {
+      margin-right:1em;
+    }
+  }
+}
