@@ -66,6 +66,7 @@ span.new {
 }
 #homepage div.views-field-name {
   font-size: 11px;
+  margin-bottom: 1em;
 }
 div.field-name-group-group {
   overflow: auto;
