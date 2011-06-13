@@ -64,6 +64,9 @@ span.new {
 #homepage div.panel-col-last div.panel-pane {
   border-left: 10px solid #fff;
 }
+#homepage div.views-field-name {
+  font-size: 11px;
+}
 div.field-name-group-group {
   overflow: auto;
 }
